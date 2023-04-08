@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import ContactForm from '../components/contact/contact-from'
 
 function ContactPage() {
     return (
-        <div>ContactPage</div>
+        <ContactForm />
     )
 }
 
