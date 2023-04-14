@@ -9,7 +9,7 @@ export default function HomePage(props) {
   return (
     <>
       <Head>
-        <title>Waleed' Blog</title>
+        <title>JS Arena Blog</title>
         <meta name='description' content="I post about programming and web development" />
       </Head>
       <Hero />
