@@ -1,0 +1,19 @@
+.footer {
+    padding: 0 10%;
+}
+.links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #262428;
+}
+
+
+.text {
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    font-family: 'Oswald', sans-serif;
+    color: var(--color-grey-800);
+}
