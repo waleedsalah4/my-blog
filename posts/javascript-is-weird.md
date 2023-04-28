@@ -187,4 +187,6 @@ And so, the following code will work as intended:
 ["1", "7", "11"].map((numStr) => parseInt(numStr));
 ```
 
-This article was from Meduim you can the original article [here](https://medium.com/dailyjs/parseint-mystery-7c4368ef7b21)
+---
+
+This article was from Meduim you can find the original article [here](https://medium.com/dailyjs/parseint-mystery-7c4368ef7b21)
