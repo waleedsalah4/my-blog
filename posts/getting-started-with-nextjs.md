@@ -17,7 +17,6 @@ Not for me, but still, there is a valid point: React already is a framework / li
 ## Why would we then need NextJS?
 
 Because NextJS makes building React apps easier - especially React apps that should have server-side rendering (though it does way more than just take care of that).
-
 In this article, we'll dive into the core concepts and features NextJS has to offer:
 
 - File-based Routing
@@ -29,5 +28,3 @@ In this article, we'll dive into the core concepts and features NextJS has to of
 ## File-based Routing
 
 ![Create routes via your file + folder structure](nextjs-file-based-routing.png)
-
-... More content ...
