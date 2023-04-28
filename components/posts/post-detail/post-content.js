@@ -108,9 +108,7 @@ function PostContent(props) {
     <article className={classes.content}>
       <PostHeader title={post.title} image={imagePath} />
       {/* <ReactMarkdown components={customeRenders}> */}
-      <ReactMarkdown remarkPlugins={[remarkGfm]} components={customeRenders}>
-        {post.content}
-      </ReactMarkdown>
+      <ReactMarkdown remarkPlugins={[remarkGfm]} components={customeRenders} children={post.content} />
     </article>
   )
 }
