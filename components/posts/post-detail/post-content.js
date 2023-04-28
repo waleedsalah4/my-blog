@@ -91,11 +91,12 @@ function PostContent(props) {
         return !inline && match ? (
           <SyntaxHighlighter
             {...props}
-            children={String(children).replace(/\n$/, '')}
             style={atomDark}
             language={match[1]}
             PreTag="div"
-          />
+          >
+            {String(children).replace(/\n$/, '')}
+          </SyntaxHighlighter>
         ) : (
           <code {...props} className={className}>
             {children}
@@ -108,7 +109,9 @@ function PostContent(props) {
     <article className={classes.content}>
       <PostHeader title={post.title} image={imagePath} />
       {/* <ReactMarkdown components={customeRenders}> */}
-      <ReactMarkdown remarkPlugins={[remarkGfm]} components={customeRenders} children={post.content} />
+      <ReactMarkdown remarkPlugins={[remarkGfm]} components={customeRenders}>
+        {post.content}
+      </ReactMarkdown>
     </article>
   )
 }
